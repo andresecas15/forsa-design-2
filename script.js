@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
         btn.disabled = true;
         setTimeout(() => {
             btn.innerHTML = '<span>¡Enviado!</span> <i class="fas fa-check"></i>';
-            btn.style.background = '#00b894'; btn.style.color = '#fff';
+            btn.style.background = '#009DD9'; btn.style.color = '#fff';
             setTimeout(() => { btn.innerHTML = orig; btn.style.background = ''; btn.style.color = ''; btn.disabled = false; form.reset(); }, 3000);
         }, 1500);
     });
